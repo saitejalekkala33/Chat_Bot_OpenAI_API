@@ -6,7 +6,7 @@ from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 
 # Replace with your actual OpenAI API key
-OPENAI_API_KEY = "sk-None-hvfTell8ftyI3Q6x0dBBT3BlbkFJRR7Ru0ydE7T78hQ86U51"
+OPENAI_API_KEY = ""
 
 # Initialize Flask app
 app = Flask(__name__)

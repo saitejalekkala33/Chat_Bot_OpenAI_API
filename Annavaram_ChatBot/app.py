@@ -12,7 +12,7 @@ OPENAI_API_KEY = ""
 app = Flask(__name__)
 
 # Load and prepare the data
-pdfreader = PdfReader(r'C:\cpp\coding\Vetaron\data\annavaram.pdf')
+pdfreader = PdfReader('annavaram.pdf')
 
 # Read text from PDF
 raw_text = ''
